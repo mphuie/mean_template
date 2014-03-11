@@ -1,8 +1,14 @@
 {
-	"name": "mean_template",
-	"main": "server.js",
-	"dependencies": {
-		"express": "latest",
-		"mongoose": "latest"
-	}
+  "name": "mean_template",
+  "main": "server.js",
+  "dependencies": {
+    "express": "latest",
+    "mongoose": "latest"
+  },
+  "devDependencies": {
+    "gulp": "~3.5.5",
+    "gulp-concat": "~2.1.7",
+    "gulp-jshint": "~1.5.0",
+    "gulp-rename": "~1.2.0"
+  }
 }
